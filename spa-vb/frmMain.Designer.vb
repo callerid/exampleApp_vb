@@ -105,8 +105,8 @@ Partial Class frmMain
     End Sub
     Private WithEvents btContacts As System.Windows.Forms.Button
     Private WithEvents btLog As System.Windows.Forms.Button
-    Friend WithEvents panLine1 As spa_vb.displayRow
-    Friend WithEvents panLine2 As spa_vb.displayRow
-    Friend WithEvents panLine3 As spa_vb.displayRow
-    Friend WithEvents panLine4 As spa_vb.displayRow
+    Private WithEvents panLine1 As spa_vb.displayRow
+    Private WithEvents panLine2 As spa_vb.displayRow
+    Private WithEvents panLine3 As spa_vb.displayRow
+    Private WithEvents panLine4 As spa_vb.displayRow
 End Class

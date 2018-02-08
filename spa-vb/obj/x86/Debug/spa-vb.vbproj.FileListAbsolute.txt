@@ -1,0 +1,15 @@
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\bin\Debug\spa-vb.exe
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\bin\Debug\spa-vb.pdb
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\bin\Debug\spa-vb.xml
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\bin\Debug\System.Data.SQLite.dll
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.vbprojResolveAssemblyReference.cache
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa_vb.displayRow.resources
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa_vb.frmAddContact.resources
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa_vb.frmLogFile.resources
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa_vb.frmMain.resources
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa_vb.Resources.resources
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa_vb.frmContacts.resources
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.vbproj.GenerateResource.Cache
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.exe
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.xml
+C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.pdb

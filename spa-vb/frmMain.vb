@@ -24,6 +24,7 @@ Public Class frmMain
     Public MyNumber As String
     Public MyName As String
     Public FoundIndex As Integer
+    Public PreviousReceptions As List(Of String)
 
     'Start record variables
     Public SMyLine As String
@@ -32,6 +33,9 @@ Public Class frmMain
     Public SMyNumber As String
 
     Private Sub frmMain_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+        PreviousReceptions = New List(Of String)
+
         'Load display rows into an array, for easier access.
         panels(1) = panLine1
         panels(2) = panLine2
@@ -182,7 +186,26 @@ Public Class frmMain
             Exit Sub
         End If
 
-        'Dim sReceivedText As String = UdpReceiver.ReceivedMessage
+        Dim reception As String = UdpReceiver.ReceivedMessage
+
+        ' Check for duplicates
+        If Not (PreviousReceptions.Contains(reception)) Then
+
+            ' if check buffer is full, add to end and remove oldest
+            If (PreviousReceptions.Count > 30) Then
+                PreviousReceptions.Add(reception)
+                PreviousReceptions.RemoveAt(0)
+            Else
+                ' if check buffer is not full simply add to end
+                PreviousReceptions.Add(reception)
+            End If
+
+        Else
+
+            Exit Sub
+
+        End If
+
         SetVars()
 
         ' This section handles all the Caller ID window visuals
@@ -196,7 +219,7 @@ Public Class frmMain
                 panels(intLine).picPhone.Image = My.Resources.phoneRing
 
                 'Light up panel green for incoming call
-                panels(intLine).BackColor = Color.Green
+                panels(intLine).BackColor = Color.LightGreen
 
                 'Show time on panel
                 panels(intLine).lbTime.Text = MyTime
@@ -231,6 +254,13 @@ Public Class frmMain
                 panels(intLine).picPhone.Image = My.Resources.phoneOnHook
 
             Case "IE"
+                'Phone End Call
+
+                panels(intLine).BackColor = Color.Silver
+
+                'Change picture of phone to not-ringing
+                panels(intLine).picPhone.Image = My.Resources.phoneOnHook
+
             Case "OS"
                 'Outgoing Call
 
@@ -245,6 +275,12 @@ Public Class frmMain
                 panels(intLine).lbName.Text = MyName
 
             Case "OE"
+                'Phone End Call
+
+                panels(intLine).BackColor = Color.Silver
+
+                'Change picture of phone to not-ringing
+                panels(intLine).picPhone.Image = My.Resources.phoneOnHook
 
         End Select
 
