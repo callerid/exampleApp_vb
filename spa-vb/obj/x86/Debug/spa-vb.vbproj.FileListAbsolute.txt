@@ -13,3 +13,20 @@ C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.vbproj.GenerateRe
 C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.exe
 C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.xml
 C:\Users\spenl\Desktop\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.pdb
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\bin\Debug\spa-vb.exe
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\bin\Debug\spa-vb.pdb
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\bin\Debug\spa-vb.xml
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\bin\Debug\System.Data.SQLite.dll
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.vbprojAssemblyReference.cache
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\obj\x86\Debug\spa_vb.displayRow.resources
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\obj\x86\Debug\spa_vb.frmAddContact.resources
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\obj\x86\Debug\spa_vb.frmLogFile.resources
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\obj\x86\Debug\spa_vb.frmMain.resources
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\obj\x86\Debug\spa_vb.Resources.resources
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\obj\x86\Debug\spa_vb.frmContacts.resources
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.vbproj.GenerateResource.cache
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.vbproj.CoreCompileInputs.cache
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.vbproj.CopyComplete
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.exe
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.xml
+F:\Projects\Visual Studio Projects\sampeApp_vb\spa-vb\obj\x86\Debug\spa-vb.pdb

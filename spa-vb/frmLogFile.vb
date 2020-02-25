@@ -18,7 +18,7 @@ Public Class frmLogFile
         End Try
 
         'Sort by date, then time from the database. The DataGridView can only sort by one at a time.
-        Dim myCommand As New SQLiteCommand("SELECT * FROM calls ORDER BY date DESC, time DESC", myConnection)
+        Dim myCommand As New SQLiteCommand("SELECT * FROM calls ORDER BY ID DESC;", myConnection)
 
         If myConnection.State = ConnectionState.Open Then
             Dim dataAdapter As New SQLiteDataAdapter(myCommand)
@@ -26,6 +26,7 @@ Public Class frmLogFile
             dataAdapter.Fill(dataSet, "calls")
             Dim myBind = New BindingSource(dataSet, "calls")
             dgvLogFile.DataSource = myBind
+            dgvLogFile.Columns(0).Visible = False
         End If
         Try
             myConnection.Close()

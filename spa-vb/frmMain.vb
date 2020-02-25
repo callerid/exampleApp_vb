@@ -84,7 +84,7 @@ Public Class frmMain
             ' Log File Database
             ' Create new SQLite (db3) file for new database since none exist
             ' You could use any database type for logging. We use SQLite since it only requires one DLL file
-            createDatabase("callsDatabase.db3", "CREATE TABLE calls(Date varchar(10),Time varchar(10),Line varchar(10),Type varchar(10),Indicator varchar(10),Duration varchar(10),Checksum varchar(10),Rings varchar(10),Number varchar(15),Name varchar(20));")
+            createDatabase("callsDatabase.db3", "CREATE TABLE calls(ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, Date varchar(10),Time varchar(10),Line varchar(10),Type varchar(10),Indicator varchar(10),Duration varchar(10),Checksum varchar(10),Rings varchar(10),Number varchar(15),Name varchar(20));")
         End If
 
         If My.Computer.FileSystem.FileExists("contactsDatabase.db3") = False Then
